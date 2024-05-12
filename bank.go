@@ -79,7 +79,7 @@ func main() {
 			if withdrawalAmount <= 0 {
 				fmt.Println("Invalid Amount, deposit must be greater than 0. ")
 				continue
-				// return
+				// return will result in exiting to the terminal
 			}
 			if withdrawalAmount > accountBalance {
 				fmt.Println("Insufficient funds to withdraw, withdrawal must be withing your available balance. ")
